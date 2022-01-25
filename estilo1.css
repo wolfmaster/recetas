@@ -2,47 +2,67 @@
 
 
 body {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(239, 247, 197);
 }
 
 h1 {
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 40px;
     font-weight: bolder;
-    text-shadow: grey;
-    text-shadow: 10px;
     text-align: center;
     border-color: rgb(59, 26, 2);
-    background-color: rgb(3, 168, 3);
-    border-radius: 10px;
+    background-color: rgb(235, 195, 16);
+    
     
 }
 
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: rgb(3, 168, 3);
-    text-align: justify;
+    background-color: rgb(235, 195, 16);
+    text-align: center;
+    border-radius: 35px 0px 0px 0px;
+    border: 1px dashed black
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: black;
     text-decoration-line: none;
-    text-align: justify;
+    text-align: center;
 }
 
-.resumen {
+.textocaja {
+    
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
     width: auto;
-    height: auto;
-    border: black, 25px, solid;
-    text-align: center;
-    font-weight: bolder;
+    height: 300px;
+    color: black;
+    background-color: rgb(255, 255, 247);
     font-family: "comic sans", Arial, Helvetica, sans-serif;
-    float: right;
-    box-sizing: content-box;
+    
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 0 50px;
+    
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000000;
+
+    
+    
 }
-img.recetas {
-    width: 300px;
-    height: auto;
+img.imgrecetas {
+    box-sizing: border-box;
+    width: auto;
+    height: 300px;
+    border-width: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    
+    
 }
